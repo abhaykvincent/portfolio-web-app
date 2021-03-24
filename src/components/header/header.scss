@@ -1,0 +1,20 @@
+@import '../../app/style/variables';
+.header{
+    position: fixed;
+    top:0px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    grid-gap: $padding-main;
+    padding: 2em 10em;
+    background-color: #141414;
+    color: white;
+    z-index: 100;
+    .logo{
+        width: 60px;
+        height: 60px;
+        background-image: url('../../images/logo-white.png');
+        background-size: 100% auto;
+    }
+}

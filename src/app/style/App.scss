@@ -1,0 +1,19 @@
+@import './variables.scss';
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+}
+a{
+    color: inherit;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    background-color: white;
+    color: rgb(19, 19, 19);
+    .App{
+        width: 100%;
+    }
+}
