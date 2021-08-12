@@ -410,26 +410,30 @@ export default function Home() {
                     <p className="ter orange">is</p>
                     <p className="sec">Structure</p>
                 </div>
-                <div className="about about_css">
-                    <p className="pri">CSS</p>
-                    <p className="ter">is</p>
-                    <p className="sec orange">Presentation</p>
+                <div className="about about_css ">
+                    <p className="pri" data-aos="flip-down" data-aos-delay="80">CSS</p>
+                    <p className="ter" data-aos="flip-down" data-aos-delay="120">is</p>
+                    <p className="sec orange" data-aos="flip-down" data-aos-delay="140">Presentation</p>
                     </div>
                 <div className="about about_js">
                 <ParallaxBanner
                     className="your-class"
                     layers={[
                         {
-                            children: <p  className="pri" style={{paddingTop:'400px'}}>Javascript</p>,
-                            amount: -0.2,
-                        },
-                        {
-                            children: <p className="ter" style={{paddingTop:'660px'}}>is</p>,
+                            children: <p  className="pri" style={{paddingTop:'250px'}}>Javascript</p>,
                             amount: -0.5,
                         },
                         {
-                            children: <p  className="sec" style={{paddingTop:'900px'}}>Behavior</p>,
-                            amount: -0.8,
+                            children: <p className="ter" style={{paddingTop:'370px'}}>is</p>,
+                            amount: -0.6,
+                        },
+                        {
+                            children: <div className="behavior-image"></div>,
+                            amount:0,
+                        },
+                        {
+                            children: <p  className="sec" style={{paddingTop:'490px'}}>Behavior</p>,
+                            amount: -0.75,
                         }
                     ]}
                     style={{
@@ -468,7 +472,25 @@ export default function Home() {
                 <p>I'm currently interested in learning SVG animations, Commercial Web Applications.</p>
                 </div>
             </div>
-            
+            <div className="social-section splash__left_social">
+
+                        <a className="social-sec" href="http://www.facebook.com/abhay.vincent"><div > </div></a>
+                        <a className="social-sec" href="http://www.instagram.com/fullstack_lad"><div ></div></a>
+                        <a className="social-sec" href="https://www.linkedin.com/in/abhayvincent/"><div ></div></a>
+                        <a className="social-sec" href="http://www.twitter.com/abhaykvincent"><div ></div></a>
+                    
+            </div>
+            {/*     
+
+                    dark background !! **
+
+                    Social *
+                        Instagram
+                        Dribble
+                        Twitter
+
+            */}
+
             <div className="freelance" data-aos="flip-down" data-aos-delay="100">
                 <div className="top__image">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 653.513 251.176">
